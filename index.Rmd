@@ -1,0 +1,44 @@
+---
+title: "My Website"
+output:
+  html_document:
+    css: "styles.css"
+    toc: true
+    toc_float: true
+    position: right
+---
+<style type="text/css">
+#TOC {
+  color: purple; 
+  position: fixed;
+}
+</style>
+Home
+--------
+```{r}
+plot(cars, pch = 18)
+```
+```{r}
+plot(cars, pch = 18)
+```
+
+
+Rationale
+--------
+Methods
+--------
+```{r,echo=FALSE}
+plot(cars, pch = 20)
+```
+
+Browse by gene
+--------
+Browse by cell type
+--------
+Compare cell types
+--------
+Credits
+--------
+
+
+
