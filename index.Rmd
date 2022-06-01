@@ -1,44 +1,57 @@
 ---
-title: "My Website"
+title: "My paper"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+keywords: pandoc, r markdown, knitr
 output:
+  pdf_document:
+    toc: yes
   html_document:
-    css: "styles.css"
-    toc: true
-    toc_float: true
+    css: styles.css
     position: right
+    toc: yes
+    toc_float: yes
+abstract: This document provides an introduction to R Markdown, argues for its...
 ---
 <style type="text/css">
 #TOC {
-  color: purple; 
+  color: #008cff; 
   position: fixed;
 }
 </style>
-Home
---------
-```{r}
-plot(cars, pch = 18)
-```
-```{r}
-plot(cars, pch = 18)
-```
 
+## Home
 
-Rationale
---------
-Methods
---------
-```{r,echo=FALSE}
-plot(cars, pch = 20)
-```
+### this web site is for scientific research results
 
-Browse by gene
---------
-Browse by cell type
---------
-Compare cell types
---------
-Credits
---------
+for the moment its a statistic web site that contain many plots from recent analysis scripts as mentioned this is a first try for the web site below we have an *densityBeanPlot* 
+
+![first plot](Rplot3.png)
+
+## Rationale
+
+## this web site containes many parts like this one
+
+ from recent analysis scripts.as mentioned this is a first try for the web site below we have a plot that demostrate the methylation. 
+![plot 1](plot1.jpg)
+
+## Methods
+
+![first plot](plot2.jpg)
+
+## Browse by gene
+
+![first plot](plit3.jpg)
+
+## Browse by cell type
+
+![first plot](Rplot01.png)
+
+## Compare cell types
+
+![first plot](Rplot2.png)
+
+## Credits 
+
 
 
 
