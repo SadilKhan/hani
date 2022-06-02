@@ -1,16 +1,17 @@
 ---
-title: "My paper"
+abstract: "This document provides an introduction to R Markdown, argues for its..."
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-keywords: pandoc, r markdown, knitr
-output:
-  pdf_document:
-    toc: yes
-  html_document:
+keywords: "pandoc, r markdown, knitr"
+output: 
+  html_document: 
     css: styles.css
     position: right
-    toc: yes
-    toc_float: yes
-abstract: This document provides an introduction to R Markdown, argues for its...
+    toc: true
+    toc_float: true
+  pdf_document: 
+    toc: true
+title: "Tcell.5mC.ID"
+# bibliography: references.bib  
 ---
 <style type="text/css">
 #TOC {
@@ -19,38 +20,75 @@ abstract: This document provides an introduction to R Markdown, argues for its..
 }
 </style>
 
-## Home
+## T cell identification using long read modifications 
 
-### this web site is for scientific research results
+### Summary
+this web site is for scientific research results for the moment its a statistic web site that contain many plots from recent analysis scripts as mentioned this is a first try for the web site below we have an.
 
-for the moment its a statistic web site that contain many plots from recent analysis scripts as mentioned this is a first try for the web site below we have an *densityBeanPlot* 
+### References:
+in here we keep the references.
 
-![first plot](Rplot3.png)
+
 
 ## Rationale
 
-## this web site containes many parts like this one
 
- from recent analysis scripts.as mentioned this is a first try for the web site below we have a plot that demostrate the methylation. 
-![plot 1](plot1.jpg)
+### Link to BioRxiv
+
+this web site containes many parts like this one from recent analysis scripts.as mentioned this is a first try for the web site below we have a plot that demostrate the methylation. 
+![plot 1](Rplot2.png)
+
+### References
+..
+
+
 
 ## Methods
 
-![first plot](plot2.jpg)
+### Link to Git hub 
+this web site is a result of analysis R scripts pushed on the reposetory *myreposetory*
+![first plot](Rplot01.png)
+
+
+### References
+..
+
 
 ## Browse by gene
 
+### Select gene of interest:
+### Select modification (5mC/5hmC):
+![first plot](plot1.jpg)
+
+
+
+## Browse by celle type
+
+### Select cell type of interest:
+### Select modification (5mC/5hmC):
+
+```{r, echo=FALSE, out.width="49%", out.height="20%", fig.cap="caption", fig.show='hold', fig.align='center'}
+
+knitr::include_graphics(c("plot1.jpg","plot2.jpg"))
+``` 
+
+
+
+
+
+## Compaire celle types 
+
+### Cell type 1: ______ , Cell type 2: 
+### Select modification (5mC/5hmC): _______
 ![first plot](plit3.jpg)
 
-## Browse by cell type
 
-![first plot](Rplot01.png)
-
-## Compare cell types
-
-![first plot](Rplot2.png)
 
 ## Credits 
+
+### About us:
+..
+..
 
 
 
